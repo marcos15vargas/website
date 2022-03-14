@@ -49,8 +49,19 @@ body {
 
 .menu2 {
 	margin: 5px;
+	background-image: linear-gradient(#0d0054,#0d0054);
+	background-repeat: no-repeat;
+	background-size: 0% 100%;
+	background-position-x: right;
+
+	transition: background-size 500ms; 
 }
 
+.menu2:hover {
+	background-size: 100% 100%;
+	background-position-x: left;
+
+}
 
 .nav a {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -59,12 +70,6 @@ body {
 	padding: 10px;
 	font-size: 1fr;
 }
-
-.menu2:hover {
-	background: rgb(40,40,40);
-}
-
-
 
 .contenedortitulo {
 	text-align: center;
